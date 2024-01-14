@@ -1,6 +1,6 @@
 [project]
 name = "passlib-fork"
-version = "1.7.4-1"
+version = "1.7.4-2"
 description = "comprehensive password hashing framework supporting over 30 schemes"
 keywords = ["password secret hash security\ncrypt md5-crypt\nsha256-crypt sha512-crypt pbkdf2 argon2 scrypt bcrypt\napache htpasswd htdigest\ntotp 2fa"]
 authors = [
@@ -23,6 +23,9 @@ classifiers = [
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: Jython",
     "Programming Language :: Python :: Implementation :: PyPy",
@@ -33,7 +36,7 @@ license = { text = "BSD" }
 requires-python = ">=3.10"
 
 [project.urls]
-Homepage = "https://passlib.readthedocs.io"
+Homepage = "https://github.com/Yolley/passlib-fork"
 
 [project.optional-dependencies]
 argon2 = [
